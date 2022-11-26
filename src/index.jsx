@@ -32,10 +32,10 @@ root.render(
       
     <Overlay />
 
-    <Planets 
+    {/* <Planets 
       color={'#f7f7f7'}
       background="#151515" 
-      time={1800}/>
+      time={1800}/> */}
     
     <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
 
