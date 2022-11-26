@@ -27,7 +27,6 @@ root.render(
       <Suspense>
       
       <App />
-      <Planets/>
       
         
   
