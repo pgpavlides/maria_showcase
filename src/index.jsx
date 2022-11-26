@@ -24,16 +24,18 @@ function Overlay() {
 root.render(
   <>
       <App />
-      <Planets 
-      color={'#f7f7f7'}
-      background="#151515" 
-      time={1800}/>
+      
         
   
       
     <Overlay />
     
     <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
+
+    <Planets 
+      color={'#f7f7f7'}
+      background="#151515" 
+      time={1800}/>
 
 
   </>,
