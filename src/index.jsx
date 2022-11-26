@@ -40,10 +40,10 @@ root.render(
     
     </Suspense>
 
-    <Planets 
+    {/* <Planets 
       color={'#f7f7f7'}
       background="#151515" 
-      time={1800}/>
+      time={1800}/> */}
     
 
     
