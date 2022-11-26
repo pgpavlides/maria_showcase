@@ -4,6 +4,9 @@ import { Suspense } from 'react'
 import { Logo } from '@pmndrs/branding'
 import './styles.css'
 import { App } from './App'
+// import { Lines } from 'react-preloaders';
+// import {Sugar} from 'react-preloaders';
+import {Planets} from 'react-preloaders';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -20,11 +23,19 @@ function Overlay() {
 
 root.render(
   <>
-    <Suspense fallback={null}>
       <App />
-    </Suspense>
+      <Planets 
+      color={'#f7f7f7'}
+      background="#151515" 
+      time={4000}/>
+        
+  
+      
     <Overlay />
+    
     <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
+
+
   </>,
   
 )
