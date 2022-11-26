@@ -23,6 +23,8 @@ function Overlay() {
 
 root.render(
   <>
+      <Suspense>
+      
       <App />
       
         
@@ -36,6 +38,8 @@ root.render(
       time={1800}/>
     
     <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
+
+    </Suspense>
 
     
 
