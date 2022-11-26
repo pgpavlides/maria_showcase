@@ -27,7 +27,7 @@ root.render(
       <Planets 
       color={'#f7f7f7'}
       background="#151515" 
-      time={4000}/>
+      time={1800}/>
         
   
       
