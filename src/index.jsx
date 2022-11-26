@@ -6,7 +6,7 @@ import './styles.css'
 import { App } from './App'
 // import { Lines } from 'react-preloaders';
 // import {Sugar} from 'react-preloaders';
-import {Planets} from 'react-preloaders';
+import {Planets} from 'react-preloaders2';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -28,19 +28,22 @@ root.render(
       
       <App />
       
+      
         
   
       
     <Overlay />
 
-    {/* <Planets 
-      color={'#f7f7f7'}
-      background="#151515" 
-      time={1800}/> */}
+   
     
     <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
     
     </Suspense>
+
+    <Planets 
+      color={'#f7f7f7'}
+      background="#151515" 
+      time={1800}/>
     
 
     
